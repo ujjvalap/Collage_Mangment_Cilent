@@ -3,9 +3,9 @@ import Login from "./components/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import mystore from "./redux/store";
-import StudentHome from "./Screens/Student/Home";
-import FacultyHome from "./Screens/Faculty/Home";
-import AdminHome from "./Screens/Admin/Home";
+import StudentHome from "./pages/Student/Home";
+import FacultyHome from "./pages/Faculty/Home";
+import AdminHome from "./pages/Admin/Home";
 
 const App = () => {
   return (
